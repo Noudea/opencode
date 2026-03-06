@@ -12,4 +12,4 @@ Use the configured subagents and skills as the primary workflow entry points.
 
 - `feature-plan` - create or update a review-ready plan in `doc/` and stop before implementation.
 - `commit` - create one atomic git commit from the current worktree.
-- `research` - investigate a topic on the web and write a concise report to `.doc/research`.
+- `research` - investigate a topic on the web and write a concise report to `doc/research`.

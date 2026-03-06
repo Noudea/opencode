@@ -15,7 +15,7 @@ REQUESTED_FEATURE_NAME: <derive from FEATURE_REQUEST>
 OPTIONAL_PLANNING_CONTEXT: <derive from FEATURE_REQUEST when present>
 PLAN_DIRECTORY: doc
 PLAN_FILE: doc/<feature-slug>.md
-RELATED_RESEARCH_DIRECTORY: .doc/research
+RELATED_RESEARCH_DIRECTORY: doc/research
 
 ## Instructions
 
@@ -26,7 +26,7 @@ RELATED_RESEARCH_DIRECTORY: .doc/research
 - Use `./doc/<feature-slug>.md` as the single source of truth for planning.
 - If the plan file already exists, update it in place instead of creating a duplicate plan.
 - Inspect relevant repo context before writing the plan.
-- If useful research already exists under `.doc/research/`, reference it in the plan instead of duplicating it.
+- If useful research already exists under `doc/research/`, reference it in the plan instead of duplicating it.
 - Use external web research only when it materially improves the plan.
 - Keep the plan practical and implementation-oriented, but do not start coding.
 - Preserve the same section structure every time.
@@ -71,7 +71,7 @@ Related research: <path or none>
 
 1. Resolve the final feature title, slug, and `PLAN_FILE` path.
 2. Inspect any existing plan file plus the most relevant repo files, docs, and scripts needed to plan accurately.
-3. Check for related artifacts in `.doc/research/`, `./doc/`, or other relevant docs and incorporate them by reference.
+3. Check for related artifacts in `doc/research/`, `./doc/`, or other relevant docs and incorporate them by reference.
 4. Create or update `PLAN_FILE` using the required template and fill each section with concrete, repo-specific content.
 5. Keep the plan focused on planning only; do not edit implementation files or make code changes.
 6. Return a short report with the plan path, whether it was created or updated, key assumptions, and any open questions for review.

@@ -1,20 +1,20 @@
 ---
 name: research
-description: Research a topic on the web and write a concise report to .doc/research.
+description: Research a topic on the web and write a concise report to doc/research.
 compatibility: opencode
 metadata:
   category: web-research
-  output: .doc/research
+  output: doc/research
 ---
 
 # Web Research Skill
 
-Investigate a problem, topic, or implementation question on the web, then save the synthesized findings in `.doc/research`.
+Investigate a problem, topic, or implementation question on the web, then save the synthesized findings in `doc/research`.
 
 ## Variables
 
 RESEARCH_TOPIC: $ARGUMENTS
-OUTPUT_DIRECTORY: .doc/research
+OUTPUT_DIRECTORY: doc/research
 
 ## Instructions
 
